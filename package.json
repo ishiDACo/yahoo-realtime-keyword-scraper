@@ -1,0 +1,23 @@
+{
+  "name": "yahoo-realtime-keyword-scraper",
+  "version": "1.0.0",
+  "description": "Node.js で [Yahoo!リアルタイム検索](https://search.yahoo.co.jp/realtime) のキーワードを抽出する。",
+  "main": "yahoo-realtime-keyword-scraper.js",
+  "dependencies": {
+    "puppeteer": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishiDACo/yahoo-realtime-keyword-scraper.git"
+  },
+  "author": "ishiDACo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ishiDACo/yahoo-realtime-keyword-scraper/issues"
+  },
+  "homepage": "https://github.com/ishiDACo/yahoo-realtime-keyword-scraper#readme"
+}
