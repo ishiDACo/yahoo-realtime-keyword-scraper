@@ -4,7 +4,7 @@
   "description": "Node.js で [Yahoo!リアルタイム検索](https://search.yahoo.co.jp/realtime) のキーワードを抽出する。",
   "main": "yahoo-realtime-keyword-scraper.js",
   "dependencies": {
-    "puppeteer": "^2.0.0"
+    "puppeteer": "^2.1.0"
   },
   "devDependencies": {},
   "scripts": {
