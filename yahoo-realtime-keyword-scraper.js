@@ -10,7 +10,7 @@ const puppeteer = require("puppeteer");
 
     // キーワードをリストに詰める
     const keywords = await page.evaluate(() => {
-        const node = document.querySelectorAll("section.contents > ol > li > a");
+        const node = document.querySelectorAll("article > section > ol > li > a");
         const array = [];
         for (item of node) {
             array.push(item.innerText);
